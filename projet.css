@@ -1,0 +1,357 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #F5E6CC;;
+    color: #5a3e36;
+    line-height: 1.8;
+    text-align: center;
+}
+header h1 { 
+    font-family: 'Pacifico', cursive;
+     font-size: 60px; 
+     color: #fef6e4;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0}
+header {
+    background-color: #8c5d3a;
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #fef6e4;
+}
+.tresor {
+    background-color: #be875ddf;
+    color: white;
+    padding: 5px;
+}
+.produit {
+    background-color: #cdb197;
+    color: white;
+    padding: 5px;
+}
+.prroduit{
+    background-color:#fef6e4;
+    color:black;
+    padding: 5px;}
+
+.prroduit nav a {
+        color: black;
+        font-size: 15px;
+        margin: 20px;
+        text-decoration: underline;
+    }
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+nav a {
+    color:#F5E6CC;
+    font-size: 15px;
+    margin: 15px;
+    text-decoration: none;
+}
+.contact {
+    background-color: #f8f8f8;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+.contact  li {
+    margin-bottom: 0px;
+}
+
+.contact  a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.contact  img {
+    margin-right: 5px;
+    margin-top:2px;
+    margin-left: 20px;
+    margin-block: 5px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+
+h4 {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin: 0;
+    padding: 0;
+}
+.product-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-table {
+    width: 475px;
+    border: 2px solid #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 15px;
+}
+.productt {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-top: 2px solid #f0f0f0;
+    border-radius: 0 0 15px 15px;
+}
+
+.product-price:hover {
+    background-color: #f0f0f0;
+}
+
+
+#histoire {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#histoire h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#histoire p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+}
+
+#histoire strong {
+    color: #d35400;
+    font-weight: bold;
+}
+
+#histoire a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#histoire a:hover {
+    color: #e74c3c;
+}
+
+#cv {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cv h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #2b9cd5;
+    text-align: center;
+}
+#cv h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #bf408c;
+    text-align: left;
+}
+#cv ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+#cv strong {
+    color:#79903f ;
+}
+
+
+#cv ul li {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+#cv ul li p {
+    background-color: #e9ecef;
+    padding: 0.5rem;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.signature {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.677);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+footer {
+    background-color: #8c5d3a;
+    color: #dcc9b8;
+    text-align: center;
+    padding: 5px;
+}
+
+.contact {
+    background-color: #dcc9b8;
+    color: #fff;
+    text-align: left;
+    padding: 0px;
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    width: 20%;
+    height: auto;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.video-description {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gallery-item {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin-bottom: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+.histoire-impact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.histoire-impact > div {
+    flex: 1;
+    padding: 10px;
+    min-width: 300px;
+}
+
+.histoire h2, .impact h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.histoire p, .impact ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.impact ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.impact ul {
+    margin-bottom: 10px;
+    color: #444;
+}
+.impact li {
+    margin-bottom: 0px;
+    color: #444;
+    text-align: left;
+}
+#paiement {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+} 

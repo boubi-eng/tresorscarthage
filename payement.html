@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mrabet hiba" content="artisantunisien">
+    <title>Paiement - Les Trésors de Carthage</title>
+    <link rel="stylesheet" href="projet.css">
+    <style>
+        fieldset {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: auto;
+            padding: 10px 20px;
+            background-color: #b5a0a0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1><h1>Les Trésors de Carthage</h1></h1>
+    </header>
+    <div class="tresor">
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="produit.html">Produit</a>
+        <a href="propos.html">A propos</a>
+        <a href="Histoire.html">Histoire</a>
+        <a href="atelier.html">Atelier</a>
+        <a href="evenement.html">Évènements</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    </div>
+    <form id="paiement">
+        <h2>Paiement</h2>
+        <fieldset>
+            <legend>Étape 1 : Informations sur le produit</legend>
+            <label for="id-produit">ID du produit</label>
+            <input type="text" id="id-produit" name="id-produit" required placeholder="Entrez l'ID du produit">
+            <label for="quantite">Quantité</label>
+            <input type="number" id="quantite" name="quantite" required placeholder="Entrez la quantité">
+            <label for="taille">Taille</label>
+            <input id="taille" type="text" required placeholder="Votre taille ici">
+        </fieldset>
+        <fieldset>
+            <legend>Étape 2 : Vos détails</legend>
+            <label for="nom">Nom et prénom</label>
+            <input id="nom" type="text" required placeholder="Votre nom et prénom ici">
+            
+            <label for="email">Email</label>
+            <input id="email" type="email" required placeholder="exp@domain.com">
+            
+            <label for="tel">Téléphone</label>
+            <input id="tel" type="tel" required pattern="[0-9]{8}" placeholder="ex. 00000000">
+        </fieldset>
+
+        <fieldset>
+            <legend>Étape 3 : Adresse de livraison</legend>
+            <label for="addresse">Adresse</label>
+            <textarea id="addresse" required placeholder="Votre adresse ici"></textarea>
+
+            <label for="code">Code postal</label>
+            <input id="code" type="text" required pattern="[0-9]{4}">
+
+            <label for="ville">Ville</label>
+            <input id="ville" type="text" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Étape 4 : Détails de la carte</legend>
+            
+            <div class="radio-group">
+                <label>Type de carte</label>
+                <input type="radio" id="visa" name="carte"><label for="visa">Visa</label>
+                <input type="radio" id="amex" name="carte"><label for="amex">AmEX</label>
+            </div>
+            
+            <div class="input-group">
+                <label for="num">Numéro de carte</label>
+                <input id="num" type="text" required placeholder="1234 5678 9012 3456">
+            </div>
+            
+            <div class="input-group">
+                <label for="nomCarte">Nom sur la carte</label>
+                <input id="nomCarte" type="text" required>
+            </div>
+        </fieldset>
+        
+
+        <input type="submit" value="Acheter">
+    </form>
+    <footer class="contact">
+        <nav>
+            <div style="display: flex; gap: 100px;">
+            <div>
+            <ul>
+                <li><a href="mailto:hibamrabet53@gmail.com" title="Send an email"><img src="mail.png" alt="Email icon"> hibamrabet53@gmail.com</a></li>
+                <li><a href="maps"><img src="localisation.png" alt="Location icon">Moknine,Monastir</a></li>
+                <li><a><img src="phone.png" alt="phone icon">+216 99 092 830</a></li>
+            </ul></div>
+            <div>
+            <ul>
+                <li><strong style="color: black;">Suivez-nous</strong></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100008912384785&mibextid=LQQJ4d" title="Facebook"><img src="fcb.png" alt="Facebook icon"></a></li>
+                <li><a href="https://www.instagram.com" title="Instagram"><img src="insta.png" alt="Instagram icon"></a></li>
+                <li><a href="https://wa.me/21699092830" title="WhatsApp"><img src="wt.png" alt="WhatsApp icon"></a></li>
+            </ul></div></div>
+        </nav>
+    </footer>
+    <footer >
+        <p>&copy; 2024 Les Trésors de Carthage. Tous droits réservés. Mrabet Hiba G3 Tp2</p>
+    </footer>
+</body>
+</html>
